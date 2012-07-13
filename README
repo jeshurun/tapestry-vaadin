@@ -1,1 +1,13 @@
-This is a tapestry component that allows embedding a Vaadin Application inside a Tapestry page.
+A Tapestry 5 component that allows embedding a Vaadin Application inside a Tapestry page.
+
+To use the component in a Tapestry page:
+
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd"
+  xmlns:v="tapestry-library:tapestryvaadin">
+
+  ...
+
+  <v:embed url="http://url/of/your/vaadin/app"/>
+
+  ...
+</html>
